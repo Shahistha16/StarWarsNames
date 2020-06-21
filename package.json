@@ -1,0 +1,27 @@
+{
+  "name": "star-wars-name",
+  "version": "1.0.0",
+  "description": "get random Star Wars names",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shahistha16/StarWarsNames.git"
+  },
+  "keywords": [
+    "random",
+    "staer",
+    "wars"
+  ],
+  "author": "Shahistha Sheikh <shahistha.sheikh@robosoftin.com> (http://shahisthasheikh.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shahistha16/StarWarsNames/issues"
+  },
+  "homepage": "https://github.com/Shahistha16/StarWarsNames#readme",
+  "dependencies": {
+    "unique-random-array": "2.0.0"
+  }
+}
