@@ -1,6 +1,6 @@
 {
   "name": "shahistha-star-wars-name",
-  "version": "0.0.0-development",
+  "version": "1.4.0",
   "description": "get random Star Wars names",
   "main": "src/index.js",
   "scripts": {
