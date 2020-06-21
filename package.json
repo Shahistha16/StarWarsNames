@@ -1,9 +1,10 @@
 {
   "name": "shahistha-star-wars-name",
-  "version": "1.4.0",
+  "version": "0.0.0-development",
   "description": "get random Star Wars names",
   "main": "src/index.js",
   "scripts": {
+    "commit": "git-cz",
     "test": "mocha src/index.test.js -w",
     "semantic-release": "semantic-release"
   },
@@ -27,7 +28,12 @@
   },
   "devDependencies": {
     "chai": "4.2.0",
+    "commitizen": "4.1.2",
+    "cz-conventional-changelog": "3.2.0",
     "mocha": "8.0.1",
     "semantic-release": "^17.0.8"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
   }
 }
